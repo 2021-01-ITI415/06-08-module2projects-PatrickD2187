@@ -276,6 +276,7 @@ public class Prospector : MonoBehaviour
 			case eCardState.tableau:
 				// Clicking a card in the tableau will check if it's a valid play 
 				bool validMatch = true;
+
 				if (!cd.faceUp)
 				{
 					// If the card is face-down, it's not valid 
